@@ -1,5 +1,6 @@
 ﻿using Machine.Specifications;
 using Snooze.Testing;
+ 
 
 namespace Snooze
 {

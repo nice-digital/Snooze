@@ -1,4 +1,5 @@
 ﻿using Machine.Specifications;
+ 
 using Snooze.MSpec;
 
 namespace Snooze

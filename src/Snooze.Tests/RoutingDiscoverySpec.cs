@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Machine.Specifications;
 using Moq;
+ 
 using Snooze.Routing;
 using It = Machine.Specifications.It;
 
@@ -79,8 +80,8 @@ namespace Snooze
 
             Because of = () => registrations =  discovery.Scan(typeof(TestRegistration).Assembly);
 
-            It Should_have_discovered_the_test_registration = () => 
-                registrations.First().ShouldBeOfType<TestRegistration>();
+            It Should_have_discovered_the_test_registration = () =>
+                registrations.First().ShouldBeOfExactType<TestRegistration>();
 
          }
     }

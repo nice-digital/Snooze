@@ -1,5 +1,6 @@
 ﻿using System;
 using Machine.Specifications;
+ 
 using Snooze.AutoMock.Castle;
 
 namespace Snooze
@@ -34,7 +35,7 @@ namespace Snooze
 		}
 	}
 
-    [Ignore]
+    [Ignore("")]
 	public class automocking_abstract
 	{
 		static AutoMockContainer<Root> mocked;

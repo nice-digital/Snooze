@@ -6,6 +6,7 @@ using System.Text;
 using System.Web.Mvc;
 using System.Xml.Serialization;
 using Machine.Specifications;
+ 
 
 namespace Snooze.FutureActionTests
 {
