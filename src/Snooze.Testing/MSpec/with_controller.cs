@@ -8,6 +8,7 @@ using System.Web.Routing;
 using HtmlAgilityPack;
 using Machine.Specifications;
 using Newtonsoft.Json.Linq;
+ 
 using Snooze.Testing;
 
 namespace Snooze.MSpec
@@ -141,7 +142,7 @@ namespace Snooze.MSpec
 
         protected static void resource_is_of_type<T>()
         {
-            controllerImplmentation.Result.Resource.ShouldBeOfType<T>();
+            controllerImplmentation.Result.Resource.ShouldBeOfExactType<T>();
         }
 
         protected static JObject conneg_json(string accept = "application/json")

@@ -1,6 +1,7 @@
-﻿using NUnit.Framework;
+﻿using Machine.Specifications;
+using NUnit.Framework;
 using Snooze.Nunit;
-using Should;
+ 
 
 namespace Snooze
 {

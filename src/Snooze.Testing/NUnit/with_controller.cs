@@ -6,9 +6,9 @@ using System.Reflection;
 using System.Web;
 using System.Web.Routing;
 using HtmlAgilityPack;
+using Machine.Specifications;
 using Newtonsoft.Json.Linq;
 using NUnit.Framework;
-using Should;
 using Snooze.Testing;
 
 
@@ -151,7 +151,7 @@ namespace Snooze.Nunit
 
         protected static void resource_is_of_type<T>()
         {
-            controllerImplmentation.Result.Resource.ShouldBeType<T>();
+            controllerImplmentation.Result.Resource.ShouldBeOfExactType<T>();
         }
 
         protected static JObject conneg_json(string accept = "application/json")
