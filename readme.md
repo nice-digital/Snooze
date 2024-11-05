@@ -4,7 +4,7 @@
 
 ## What is it?
 
-This is a legacy custom RESTful framework that is used in Pathways, ARMS & Task Scheduler
+This is a legacy custom RESTful framework that is used in Pathways, ARMS, DocGen & Task Scheduler
 
 Originally developed by http://github.com/andrewdavey
 
