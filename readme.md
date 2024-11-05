@@ -4,7 +4,7 @@
 
 ## What is it?
 
-This is a legacy custom RESTful framework that is used in Pathways, ARMS, DocGen & Task Scheduler
+This is a legacy custom RESTful framework that is used in Pathways, Syndication, ARMS, DocGen & Task Scheduler
 
 Originally developed by http://github.com/andrewdavey
 
@@ -21,7 +21,7 @@ No setup needed as this code is no longer maintained
 
 ### Gotchas
 
-No longer in active development however it is still used by Pathways, ARMS, DocGen & Task Scheduler. There is a build to publish the NuGet package in TeamCity.
+No longer in active development however it is still used by Pathways, Syndication, ARMS, DocGen & Task Scheduler. There is a build to publish the NuGet package in TeamCity.
 
 ## How to use
 
